@@ -5,13 +5,15 @@ Frontend Mentor challenges help you improve your coding skills by building reali
 
 ### Links
 
-- Solution URL: [Click here!]()
-- Live Site URL: [Click here!]()
+- Solution URL: [Click here!](https://github.com/logic23dev/single-price-grid-component)
+- Live Site URL: [Click here!](https://logic23dev.github.io/single-price-grid-component/)
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
+- CSS Flexbox
+- CSS Grid
 
 ### Author
 
