@@ -18,6 +18,18 @@
   padding: 0;
 }
 
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
 body {
   min-height: 100vh;
   display: flex;
@@ -46,12 +58,12 @@ body {
   background-color: white;
   padding: 2.5rem;
 }
-.card-join h1 {
+.card-join h2 {
   font-size: 1.5rem;
   color: var(--cyan);
 }
 
-.card-join h2 {
+.card-join h3 {
   font-size: 1.125rem;
   color: var(--bright-yellow);
   margin-top: 1rem;
@@ -64,7 +76,7 @@ body {
   padding: 2.5rem;
 }
 
-.card-sub h2 {
+.card-sub h3 {
   font-size: 1.125rem;
   color: white;
   margin-bottom: 0.5rem;
@@ -109,7 +121,7 @@ body {
   padding: 2.5rem;
 }
 
-.card-why h2 {
+.card-why h3 {
   font-size: 1.125rem;
   color: white;
   margin-bottom: 0.625rem;
@@ -134,11 +146,11 @@ body {
     padding: 1.25rem;
   }
 
-  .card-join h1 {
+  .card-join h2 {
     font-size: 1.25rem;
   }
 
-  .card-join h2 {
+  .card-join h3 {
     font-size: 0.9375rem;
   }
 
