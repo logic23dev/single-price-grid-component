@@ -115,6 +115,11 @@ body {
   box-shadow: 5px 10px 15px 2px hsla(0, 0%, 0%, 0.1);
 }
 
+.card-sub a:hover {
+  background-color: var(--light-gray);
+  color: var(--bright-yellow);
+}
+
 .card-why {
   grid-area: 2 / 2 / 3 / 3;
   background-color: hsl(179, 47%, 52%);
